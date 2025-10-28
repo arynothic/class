@@ -33,6 +33,10 @@ class Student extends React.Component{
   }
 }
 
+
+
+let modelno = 123;
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
@@ -40,3 +44,4 @@ createRoot(document.getElementById('root')).render(
     <Student />
   </StrictMode>,
 )
+
